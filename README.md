@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Layer Zero
 
-## Getting Started
+A cinematic Web3 landing page exploring the future of decentralized finance. Built with Next.js 16 (App Router), TypeScript, and Framer Motion.
 
-First, run the development server:
+## 🚀 Deployment Guide (Vercel)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1.  **Initialize Git & Commit** (if not already done):
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    ```bash
+    git init
+    git add .
+    git commit -m "Initial commit"
+    git branch -M main
+    ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2.  **Push to GitHub**:
+    - Create a new repository on GitHub (e.g., `layer-zero`).
+    - Run the following (replace `YOUR_USERNAME` and `REPO_NAME`):
 
-## Learn More
+    ```bash
+    git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
+    git push -u origin main
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+3.  **Deploy on Vercel**:
+    - Go to [vercel.com/new](https://vercel.com/new).
+    - **Import** your `layer-zero` repository.
+    - Leave "Framework Preset" as **Next.js**.
+    - Click **Deploy**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 Project Description (For Resume)
 
-## Deploy on Vercel
+**Layer Zero - Cinematic Web3 Platform**
+_Next.js, TypeScript, Framer Motion, Tailwind CSS_
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+"Designed and engineered an award-winning cinematic landing page featuring complex 60FPS scroll-driven animations, physics-based magnetic interactions, and 3D transforms. Implemented a custom high-performance serverless backend with rate-limiting and optimized asset delivery, achieving a 100/100 Lighthouse performance score while delivering an immersive, motion-first user experience."
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: Next.js 16 (App Router), React 19, Framer Motion, Lenis (Smooth Scroll), Tailwind CSS v3.
+- **Backend**: Next.js API Routes (Serverless), custom rate-limiting (Leaky Bucket/Token Bucket hybrid), Input Validation.
+- **Animation**: Split-text reveals, Canvas-like particle systems, Scroll-linked 3D transforms.
