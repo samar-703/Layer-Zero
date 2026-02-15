@@ -1,11 +1,6 @@
 "use client";
-import {
-  motion,
-  useScroll,
-  useTransform,
-  useMotionValueEvent,
-} from "framer-motion";
-import { useRef, useState } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
 
 const HERO_VIDEO =
   "https://videos.pexels.com/video-files/3129671/3129671-uhd_2560_1440_24fps.mp4";

@@ -1,8 +1,7 @@
 "use client";
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/Button"; // Re-use base styles
-import { clsx } from "clsx";
+import { Button } from "@/components/ui/Button";
 import { twMerge } from "tailwind-merge";
 
 interface MagneticButtonProps extends React.ComponentProps<typeof Button> {

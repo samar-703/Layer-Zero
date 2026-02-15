@@ -2,7 +2,6 @@
 import { useState } from "react";
 import WaitlistForm from "@/components/forms/WaitlistForm";
 import ContactForm from "@/components/forms/ContactForm";
-import { motion } from "framer-motion";
 
 const FUTURE_VIDEO =
   "https://videos.pexels.com/video-files/2096533/2096533-uhd_3840_2160_30fps.mp4";
@@ -26,13 +25,6 @@ export default function Future() {
         <div className="absolute inset-0 bg-black/60" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background" />
       </div>
-
-      {/* City Grid Perspective Overlay - keep original grid for texture if desired, or replace with video? 
-          Prompt said "Replace CSS gradients... with High-quality 4K loop backgrounds".
-          I kept the video. The grid might be distracting or a nice overlay.
-          "Cinematic dawn over digital city grid" -> The video is likely a city.
-          I 'll remove the CSS grid to avoid checking for generic patterns, but keep the dawn gradient.
-      */}
 
       <div className="absolute top-0 left-0 right-0 h-64 bg-gradient-to-b from-accent-gold/10 to-transparent z-10 pointer-events-none" />
 
