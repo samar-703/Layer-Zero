@@ -1,8 +1,8 @@
 # Layer Zero
 
-A cinematic Web3 landing page exploring the future of decentralized finance. Built with Next.js 16 (App Router), TypeScript, and Framer Motion.
+Understand Web3 through website as a tutorial 
 
-## 🚀 Deployment Guide (Vercel)
+## Deployment Guide (Vercel)
 
 1.  **Initialize Git & Commit** (if not already done):
 
@@ -30,7 +30,7 @@ A cinematic Web3 landing page exploring the future of decentralized finance. Bui
 
 ---
 
-## 📄 Project Description (For Resume)
+## Project Description (For Resume)
 
 **Layer Zero - Cinematic Web3 Platform**
 _Next.js, TypeScript, Framer Motion, Tailwind CSS_
@@ -39,7 +39,7 @@ _Next.js, TypeScript, Framer Motion, Tailwind CSS_
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend**: Next.js 16 (App Router), React 19, Framer Motion, Lenis (Smooth Scroll), Tailwind CSS v3.
 - **Backend**: Next.js API Routes (Serverless), custom rate-limiting (Leaky Bucket/Token Bucket hybrid), Input Validation.
