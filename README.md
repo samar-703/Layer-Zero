@@ -2,34 +2,6 @@
 
 Understand Web3 through website as a tutorial 
 
-## Deployment Guide (Vercel)
-
-1.  **Initialize Git & Commit** (if not already done):
-
-    ```bash
-    git init
-    git add .
-    git commit -m "Initial commit"
-    git branch -M main
-    ```
-
-2.  **Push to GitHub**:
-    - Create a new repository on GitHub (e.g., `layer-zero`).
-    - Run the following (replace `YOUR_USERNAME` and `REPO_NAME`):
-
-    ```bash
-    git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
-    git push -u origin main
-    ```
-
-3.  **Deploy on Vercel**:
-    - Go to [vercel.com/new](https://vercel.com/new).
-    - **Import** your `layer-zero` repository.
-    - Leave "Framework Preset" as **Next.js**.
-    - Click **Deploy**.
-
----
-
 ## Project Description (For Resume)
 
 **Layer Zero - Cinematic Web3 Platform**
