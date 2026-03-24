@@ -2,7 +2,7 @@
 
 Understand Web3 through website as a tutorial 
 
-## Project Description (For Resume)
+## Project Description
 
 **Layer Zero - Cinematic Web3 Platform**
 _Next.js, TypeScript, Framer Motion, Tailwind CSS_
